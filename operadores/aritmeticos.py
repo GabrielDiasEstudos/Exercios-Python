@@ -1,4 +1,4 @@
-# Operações
+# Operações Aritméticas
 
 def mostrar_exemplo():
     print(2 + 2)   # Soma

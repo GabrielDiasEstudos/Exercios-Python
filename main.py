@@ -1,5 +1,6 @@
 import primitivos.inteiros as exemplo_inteiros
-import primitivos.operacoes as exemplo_operacoes
+import operadores.aritmeticos as exemplo_operacoes
+
 #Fundamentos de lógica de programação com Python
 
 alternativa = 2
