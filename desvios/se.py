@@ -6,7 +6,6 @@ def mostrar_exemplo():
     mensagem = classificar_idade(idade, 'Gabriel')
 
     print(mensagem)
-    
 
 # Exemplo de função
 
