@@ -8,9 +8,11 @@ import operadores.unarios as exemplo_unarios
 import operadores.logicos as exemplo_logicos
 import operadores.comparacao as exemplo_comparacao
 
+import desvios.se as ex_if
+
 #Fundamentos de lógica de programação com Python
 
-alternativa = 8
+alternativa = 9
 
 if alternativa == 1:
     exemplo_inteiros.mostrar_exemplo()
@@ -28,3 +30,5 @@ elif alternativa == 7:
     exemplo_logicos.mostrar_exemplo()
 elif alternativa == 8:
     exemplo_comparacao.mostrar_exemplo()
+elif alternativa == 9:
+    ex_if.mostrar_exemplo()
