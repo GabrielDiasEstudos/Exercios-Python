@@ -13,8 +13,9 @@ import desvios.repeticao as ex_repeticao
 
 import sequencias.lista as ex_seq
 import sequencias.funcoes_listas as ex_funcoes_listas
+import sequencias.dicionario as ex_dicionario
 
-#Fundamentos de lógica de programação com Python
+# Fundamentos de lógica de programação com Python
 
 entrada = input('Qual exemplo você quer ver? ')
 
@@ -47,3 +48,5 @@ else:
         ex_funcoes_listas.mostrar_exemplo()
     elif alternativa == 12:
         ex_repeticao.mostrar_exemplo()
+    elif alternativa == 13:
+        ex_dicionario.mostrar_exemplo()
