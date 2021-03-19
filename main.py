@@ -1,7 +1,5 @@
-import primitivos.inteiros as exemplo_inteiros
-import primitivos.ponto_flutuantes as ex_pontoflutuante
-import primitivos.textos as ex_texto
 import primitivos.booleanos as ex_booleanos
+import primitivos.main_primitivos as secao_primitivos
 
 import operadores.aritmeticos as exemplo_operacoes
 import operadores.unarios as exemplo_unarios
@@ -17,7 +15,16 @@ import sequencias.dicionario as ex_dicionario
 
 # Fundamentos de lógica de programação com Python
 
-entrada = input('Qual exemplo você quer ver? ')
+print('-------------------------------------------')
+print('--------- Aprendizado de Python -----------')
+print('-------------------------------------------')
+print('Qual seção você quer ver? \n\n')
+
+print('1 - Tipos Primitivos')
+print('2 - Operadores')
+print('3 - Listas, Sequências')
+print('4 - Desvios e Laços de Repetições')
+entrada = input('Sua resposta: ')
 
 if not entrada.isdigit():
     print('Texto digitado não é número')
@@ -25,15 +32,13 @@ else:
     alternativa = int(entrada)
 
     if alternativa == 1:
-        exemplo_inteiros.mostrar_exemplo()
+        secao_primitivos.mostrar_secao()
     elif alternativa == 2:
         exemplo_operacoes.mostrar_exemplo()
     elif alternativa == 3:
-        ex_pontoflutuante.mostrar_exemplo()
+        print('Em manutenção')
     elif alternativa == 4:
-        ex_texto.mostrar_exemplo()
-    elif alternativa == 5:
-        ex_booleanos.mostrar_exemplo()
+        print('Em manutenção')
     elif alternativa == 6:
         exemplo_unarios.mostrar_exemplo()
     elif alternativa == 7:
@@ -50,3 +55,5 @@ else:
         ex_repeticao.mostrar_exemplo()
     elif alternativa == 13:
         ex_dicionario.mostrar_exemplo()
+    else:
+        print('Opção não existe')
