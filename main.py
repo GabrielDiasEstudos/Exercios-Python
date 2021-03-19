@@ -11,28 +11,38 @@ import operadores.comparacao as exemplo_comparacao
 import desvios.se as ex_if
 
 import sequencias.lista as ex_seq
+import sequencias.funcoes_listas as ex_funcoes_listas
+
+import validadores.eh_numero as validador
 
 #Fundamentos de lógica de programação com Python
 
-alternativa = 10
+entrada = input('Qual exemplo você quer ver? ')
 
-if alternativa == 1:
-    exemplo_inteiros.mostrar_exemplo()
-elif alternativa == 2:
-    exemplo_operacoes.mostrar_exemplo()
-elif alternativa == 3:
-    ex_pontoflutuante.mostrar_exemplo()
-elif alternativa == 4:
-    ex_texto.mostrar_exemplo()
-elif alternativa == 5:
-    ex_booleanos.mostrar_exemplo()
-elif alternativa == 6:
-    exemplo_unarios.mostrar_exemplo()
-elif alternativa == 7:
-    exemplo_logicos.mostrar_exemplo()
-elif alternativa == 8:
-    exemplo_comparacao.mostrar_exemplo()
-elif alternativa == 9:
-    ex_if.mostrar_exemplo()
-elif alternativa == 10:
-    ex_seq.mostrar_exemplo()
+if not validador.eh_numero(entrada):
+    print('Texto digitado não é número')
+else:
+    alternativa = int(entrada)
+
+    if alternativa == 1:
+        exemplo_inteiros.mostrar_exemplo()
+    elif alternativa == 2:
+        exemplo_operacoes.mostrar_exemplo()
+    elif alternativa == 3:
+        ex_pontoflutuante.mostrar_exemplo()
+    elif alternativa == 4:
+        ex_texto.mostrar_exemplo()
+    elif alternativa == 5:
+        ex_booleanos.mostrar_exemplo()
+    elif alternativa == 6:
+        exemplo_unarios.mostrar_exemplo()
+    elif alternativa == 7:
+        exemplo_logicos.mostrar_exemplo()
+    elif alternativa == 8:
+        exemplo_comparacao.mostrar_exemplo()
+    elif alternativa == 9:
+        ex_if.mostrar_exemplo()
+    elif alternativa == 10:
+        ex_seq.mostrar_exemplo()
+    elif alternativa == 11:
+        ex_funcoes_listas.mostrar_exemplo()
