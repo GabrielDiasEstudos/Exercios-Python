@@ -1,4 +1,5 @@
 ## Seção de tipos primitivos
+
 import primitivos.inteiros as ex_inteiros
 import primitivos.ponto_flutuantes as ex_pontoflutuante
 import primitivos.textos as ex_texto

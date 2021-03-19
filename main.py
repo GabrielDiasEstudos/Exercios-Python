@@ -1,10 +1,5 @@
-import primitivos.booleanos as ex_booleanos
 import primitivos.main_primitivos as secao_primitivos
-
-import operadores.aritmeticos as exemplo_operacoes
-import operadores.unarios as exemplo_unarios
-import operadores.logicos as exemplo_logicos
-import operadores.comparacao as exemplo_comparacao
+import operadores.main_operadores as secao_operadores
 
 import desvios.se as ex_if
 import desvios.repeticao as ex_repeticao
@@ -34,26 +29,10 @@ else:
     if alternativa == 1:
         secao_primitivos.mostrar_secao()
     elif alternativa == 2:
-        exemplo_operacoes.mostrar_exemplo()
+        secao_operadores.mostrar_secao()
     elif alternativa == 3:
         print('Em manutenção')
     elif alternativa == 4:
         print('Em manutenção')
-    elif alternativa == 6:
-        exemplo_unarios.mostrar_exemplo()
-    elif alternativa == 7:
-        exemplo_logicos.mostrar_exemplo()
-    elif alternativa == 8:
-        exemplo_comparacao.mostrar_exemplo()
-    elif alternativa == 9:
-        ex_if.mostrar_exemplo()
-    elif alternativa == 10:
-        ex_seq.mostrar_exemplo()
-    elif alternativa == 11:
-        ex_funcoes_listas.mostrar_exemplo()
-    elif alternativa == 12:
-        ex_repeticao.mostrar_exemplo()
-    elif alternativa == 13:
-        ex_dicionario.mostrar_exemplo()
     else:
         print('Opção não existe')
