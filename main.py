@@ -13,13 +13,11 @@ import desvios.se as ex_if
 import sequencias.lista as ex_seq
 import sequencias.funcoes_listas as ex_funcoes_listas
 
-import validadores.eh_numero as validador
-
 #Fundamentos de lógica de programação com Python
 
 entrada = input('Qual exemplo você quer ver? ')
 
-if not validador.eh_numero(entrada):
+if not entrada.isdigit():
     print('Texto digitado não é número')
 else:
     alternativa = int(entrada)
