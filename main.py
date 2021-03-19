@@ -1,9 +1,7 @@
 import primitivos.main_primitivos as secao_primitivos
 import operadores.main_operadores as secao_operadores
 import sequencias.main_sequencias as secao_sequencias
-
-import desvios.se as ex_if
-import desvios.repeticao as ex_repeticao
+import desvios.main_desvios as secao_desvios
 
 # Fundamentos de lógica de programação com Python
 
@@ -30,6 +28,6 @@ else:
     elif alternativa == 3:
         secao_sequencias.mostrar_secao()
     elif alternativa == 4:
-        print('Em manutenção')
+        secao_desvios.mostrar_secao()
     else:
         print('Opção não existe')

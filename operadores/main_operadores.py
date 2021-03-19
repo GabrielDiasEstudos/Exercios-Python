@@ -7,7 +7,7 @@ import operadores.comparacao as exemplo_comparacao
 
 def mostrar_secao():
     print('-------------------------------------------')
-    print('-------- Seção de Operadores --------')
+    print('----------- Seção de Operadores -----------')
     print('-------------------------------------------\n\n')
 
     print('Qual capítulo você desejar ver?')

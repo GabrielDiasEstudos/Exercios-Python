@@ -6,7 +6,7 @@ import sequencias.dicionario as ex_dicionario
 
 def mostrar_secao():
     print('-------------------------------------------')
-    print('-------- Seção de Operadores --------')
+    print('----------- Seção de Sequênciais ----------')
     print('-------------------------------------------\n\n')
 
     print('Qual capítulo você desejar ver?')
