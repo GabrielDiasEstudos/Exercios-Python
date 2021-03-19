@@ -10,9 +10,11 @@ import operadores.comparacao as exemplo_comparacao
 
 import desvios.se as ex_if
 
+import sequencias.lista as ex_seq
+
 #Fundamentos de lógica de programação com Python
 
-alternativa = 9
+alternativa = 10
 
 if alternativa == 1:
     exemplo_inteiros.mostrar_exemplo()
@@ -32,3 +34,5 @@ elif alternativa == 8:
     exemplo_comparacao.mostrar_exemplo()
 elif alternativa == 9:
     ex_if.mostrar_exemplo()
+elif alternativa == 10:
+    ex_seq.mostrar_exemplo()
