@@ -9,6 +9,7 @@ import operadores.logicos as exemplo_logicos
 import operadores.comparacao as exemplo_comparacao
 
 import desvios.se as ex_if
+import desvios.repeticao as ex_repeticao
 
 import sequencias.lista as ex_seq
 import sequencias.funcoes_listas as ex_funcoes_listas
@@ -44,3 +45,5 @@ else:
         ex_seq.mostrar_exemplo()
     elif alternativa == 11:
         ex_funcoes_listas.mostrar_exemplo()
+    elif alternativa == 12:
+        ex_repeticao.mostrar_exemplo()
